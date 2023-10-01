@@ -62,9 +62,5 @@ public class UserServiceImpl {
 	public Mono<Void> deleteByid(String id){
 		return userRepository.deleteById(Integer.valueOf(id));
 	}
-	
-//	public Mono<Users> getAmountInRange(double min,double max){
-//		return userRepository.findByAmountBetween(Range.closed(min, max));
-//	}
 
 }
